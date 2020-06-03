@@ -1,9 +1,10 @@
 ﻿namespace Abstraction_example
 {
-    public class Rose:Plant
+    public abstract class Rose:Plant
     {
-        public Rose() : base("Rose")
+        protected Rose() : base("Rose")
         {
         }
+
     }
 }
