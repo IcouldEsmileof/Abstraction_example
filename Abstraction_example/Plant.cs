@@ -4,7 +4,7 @@
     {
         private string _species;
 
-        public Plant(string species)
+        protected Plant(string species)
         {
             _species = species;
         }
