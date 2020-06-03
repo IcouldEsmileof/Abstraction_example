@@ -9,6 +9,7 @@ namespace Abstraction_example
             Dog dog = new Dog();
             Console.WriteLine("Printing info for dog:");
             Console.WriteLine(dog.GetSpecies() + " says " + dog.Speak());
+            
             Cat cat = new Cat();
             Console.WriteLine("\nPrinting info for cat:");
             Console.WriteLine(cat.GetSpecies() + " says " + cat.Speak());
