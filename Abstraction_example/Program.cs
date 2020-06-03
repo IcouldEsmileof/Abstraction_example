@@ -20,6 +20,15 @@ namespace Abstraction_example
             animal = cat;
             Console.WriteLine("\nPrinting info for animal when animal=cat:");
             Console.WriteLine(animal.GetSpecies() + " says " + animal.Speak());
+            
+            Rose rose = new Rose();
+            Console.WriteLine("\nPrinting info for rose:");
+            Console.WriteLine("I am a " + rose.GetSpecies());
+            
+            Plant plant = rose;
+            Console.WriteLine("\nPrinting info for plant when plant=rose:");
+            Console.WriteLine("I am a " + plant.GetSpecies());
+
         }
     }
 }
